@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+	body,html {
+  		height: 100vh;
+	}
+	html {
+		direction: ltr;
+		overflow-x: hidden;
+		-webkit-box-shadow: none !important;
+		box-shadow: none !important;
+	}
+	body {
+		background-color: #FFF;
+		color: #777;
+		font-family: "Open Sans", Arial, sans-serif;
+		font-size: 14px;
+		line-height: 26px;
+		margin: 0;
+	}
+	.main {
+		width: 95vw;
+	}
+	/* Header */
+	.header {
+		background-image:url(../images/background.jpg);
+		background-size: cover;
+		background-repeat:no-repeat;
+		
+		/* background-attachment: fixed; */
+		background-position: center center;
+		color: #FFF;
+	}
+	
+	.navbar {
+		background-color: #000;
+		color: #fff;
+	}
+	.navbar a.nav-link{
+		color: #999;
+	}
+	li.nav-item.active {
+		color: #FFF;
+	}
+	.navbar-toggler-icon {
+		color: #fff;
+	}
+	
+	.jumbotron {
+		min-height: 40vh;
+	}
+	img#avatar {
+		max-height: 133px;
+		min-height: 20vh;
+		width: auto;
+		margin-left: 5vw;
+	}
+	.btn-primary {
+		background-color: #999;
+		border-color: #000;
+	}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+	body {
+		font-size: 13px;
+	}
+	.main {
+		width: 80vw;
+	}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+	body {
+		font-size: 13px;
+	}
+	.main {
+		width: 100vw;
+	}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+	body {
+		font-size: 13px;
+	}
+	.main {
+		width: 100vw;
+	}
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+	body {
+		font-size: 13px;
+	}
+	.main {
+		width: 100vw;
+	}
+}
